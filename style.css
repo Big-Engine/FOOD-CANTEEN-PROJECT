@@ -102,6 +102,13 @@ text-decoration: solid;
     font-weight: bold;
     size: 30%;
 }
+.thank-you{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
 
 @media only screen and (max-width: 800px){
     body {
