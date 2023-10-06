@@ -6,6 +6,11 @@ background-color: #F0DE36;
 text-decoration: solid;
 
 }
+.NAV {
+    background-color: purple;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 /* .bckgrnd {
     position: fixed;
     padding: 0;
@@ -13,9 +18,7 @@ text-decoration: solid;
     right: 0%;
     bottom: 0%;
     left: 0%;  */
-.banner {
-        color: purple;
-}
+
 .logo {
     display: flex;
     align-self: flex-end;
@@ -107,11 +110,17 @@ text-decoration: solid;
     justify-content: center;
     flex-direction: row;
 }
-.HH {
+.Heading_Map {
+    text-align: center;
+    color: purple;
+}
+.Addressmap {
     color: purple;
     text-decoration: underline;
     font-size: x-large;
     font-weight: bold;
+    justify-content: center;
+    display: flex;
 }
 .backbtn {
     flex-direction: row;
@@ -124,6 +133,7 @@ text-decoration: solid;
     width: 40%;
     height: 50%;
     font-size: large;
+    justify-content: center;
    
     
     
@@ -131,7 +141,7 @@ text-decoration: solid;
 .flip-card {
     align-items: center;
     /* margin-left: auto;   /* for elements you want to push to teh far end (right) */
-    /* margin-right: auto;  for elements you want to push to teh far end (right) */ */
+    /* margin-right: auto;  for elements you want to push to teh far end (right) */
     background-color: purple;
     width: 300px;
     height: 400px;
@@ -175,6 +185,29 @@ text-decoration: solid;
     color: white;
     transform: rotateY(180deg);
 }   
+.Order_Online {
+    color: white;
+    background-color: purple;
+    align-content:center;
+    size: 50%;
+    padding: 20px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    display: flexbox;
+    flex-direction: row;
+    box-shadow: 8px 16px 0px rgba(0,0,0,0.2);
+
+/* #myVideo {
+    align-self: center;
+    justify-content: space-evenly;
+} */
+        
+
+    
+    
+
+}
 @media only screen and (max-width: 800px){
     body {
       background-color: #bbb;
