@@ -1,0 +1,5 @@
+Once customer clicks Order Online Now, display an event where food menu is displayed and 
+customer will select prefered food type.
+Selected Food type is added to food cart
+customer should be able to check out and proceed to the food cart to view selected food items
+
